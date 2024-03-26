@@ -1,3 +1,5 @@
+# call an executable and read its output as a stream, line by line
+
 from subprocess import Popen, PIPE, STDOUT
 
 rng = Popen('./rng', stdout=PIPE, stderr=STDOUT, shell=True)
